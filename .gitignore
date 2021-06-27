@@ -1,4 +1,11 @@
-# Logs
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>.gitignore</title>
+</head>
+#logs
 logs
 *.log
 npm-debug.log*
