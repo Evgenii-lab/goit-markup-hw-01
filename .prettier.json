@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>.prettier.json</title>
+</head>
 {
 	// Controls whether the editor shows CodeLens.
 	"diffEditor.codeLens": false,
@@ -160,7 +167,7 @@
 	//  - ritwickdey.LiveServer: Launch a development local Server with live reload feature for static & dynamic pages
 	//  - vscode.merge-conflict: Highlighting and commands for inline merge conflicts.
 	//  - vscode.microsoft-authentication: Microsoft authentication provider
-	//  - ms-vscode.node-debug: Node.js debugging support (versions < 8.0)
+	//  - ms-vscode.node-debug: Node.js debugging support versions 8.0
 	//  - ms-vscode.node-debug2: Node.js debugging support
 	//  - vscode.npm: Extension to add task support for npm scripts.
 	//  - ms-vscode-remote.remote-wsl-recommender: Recommends using the Windows Subsystem for Linux (WSL) and the Remote WSL extension.
@@ -701,7 +708,7 @@
 	"editor.wordBasedSuggestionsMode": "matchingDocuments",
 
 	// Characters that will be used as word separators when doing word related navigations or operations.
-	"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+	"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",./?",
 
 	// Controls how lines should wrap.
 	//  - off: Lines will never wrap.
@@ -1623,7 +1630,7 @@
 	// Format and indent `{{#foo}}` and `{{/foo}}`.
 	"html.format.indentHandlebars": false,
 
-	// Indent `<head>` and `<body>` sections.
+	// Indent and sections.
 	"html.format.indentInnerHtml": false,
 
 	// Maximum number of line breaks to be preserved in one chunk. Use `null` for unlimited.
@@ -3853,7 +3860,7 @@
 	// Deprecated. This setting is no longer used
 	"gitlens.advanced.useSymmetricDifferenceNotation": null,
 
-	// Specifies autolinks to external resources in commit messages. Use `<num>` as the variable for the reference number
+	// Specifies autolinks to external resources in commit messages. Use as the variable for the reference number
 	"gitlens.autolinks": null,
 
 	// Specifies whether to show avatar images in the gutter blame annotations
@@ -4777,7 +4784,7 @@
 	// Indent lines with tabs
 	"prettier.useTabs": false,
 
-	// Whether or not to indent the code inside `<script>` and `<style>` tags in Vue files. Some people (like the creator of Vue) don’t indent to save an indentation level, but this might break code folding in your editor.
+	// Whether or not to indent the code inside and tags in Vue files. Some people (like the creator of Vue) don’t indent to save an indentation level, but this might break code folding in your editor.
 	"prettier.vueIndentScriptAndStyle": false,
 
 	// If true, this extension will process files in node_modules
@@ -5109,5 +5116,4 @@
 
 	// 
 	"txtsyntax.showHighlightSidebar": false,
-
 }
